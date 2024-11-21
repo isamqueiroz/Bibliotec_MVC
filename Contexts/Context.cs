@@ -37,7 +37,7 @@ if (!optionsBuilder.IsConfigured)
 
     }
 
-    }
+    
 
     public DbSet<Categoria> Categoria { get; set; }
     public DbSet<Curso> Curso { get; set; }
@@ -46,6 +46,6 @@ if (!optionsBuilder.IsConfigured)
     public DbSet<LivroCategoria> LivroCategoria { get; set; }
     public DbSet<LivroReserva> LivroReserva { get; set; }
 
-
+}
     
 }
